@@ -1,0 +1,55 @@
+#clbc-comments {
+    width: 100%;
+}
+#clbc-comments .clbc-row {
+    border-bottom: 1px solid #e7e7e7;
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#clbc-comments .clbc-row .clbc-user {
+    width: 64px;
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+}
+
+#clbc-comments .clbc-row .clbc-user,
+#clbc-comments .clbc-row .clbc-comment {
+    vertical-align: top;
+}
+#clbc-comments .clbc-row .clbc-comment {
+    padding-left: 10px;
+    width: 100%;
+    max-width: 100%;
+}
+#clbc-comments .clbc-row .clbc-comment p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#clbc-comments .clbc-row .clbc-comment .clbc-delete-link,
+#clbc-comments .clbc-row .clbc-comment .clbc-edit-link {
+    font-size: 10px;
+}
+#clbc-comments .clbc-row .clbc-comment .clbc-comment-edit-form {
+    display: none;
+}
+#clbc-comments .clbc-row .clbc-comment .clbc-comment-edit-form textarea {
+    margin-bottom: 10px;
+    max-width: 100%;
+    resize:vertical;
+    width: 100%;
+}
+#clbc-form .clbc-textarea {
+    max-width: 100%;
+    resize:vertical;
+    width: 100%;
+    margin: 10px 0;
+}
+#clbc-form .clbc-delete-all-button {
+    float:right;
+}
+#clbc-loading-img {
+    margin: 5px 0 0 5px;
+    display: none;
+}
